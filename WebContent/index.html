@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Clase3</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link type="text/css" id="data-uikit-theme" rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/uikit.gradient.min.css">
+</head>
+<body>
+	<div
+		class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+		<form class="uk-form" action="Save" method="POST">
+			<legend>Registro</legend>
+			<fieldset data-uk-margin>
+				<div class="uk-form-row">
+					<input class="uk-form-width-medium" name="userid" type="text"
+						placeholder="Identificación" required>
+				</div>
+				<div class="uk-form-row">
+					<input class="uk-form-width-medium" name="name" type="text"
+						placeholder="Nombres" required>
+				</div>
+				<div class="uk-form-row">
+					<input class="uk-form-width-medium" name="lastname" type="text"
+						placeholder="Apellidos" required>
+				</div>
+				<div class="uk-form-row">
+					<input class="uk-form-width-medium" name="email" type="email"
+						placeholder="E-mail" required>
+				</div>
+				<div class="uk-form-row">
+					<button class="uk-button" type="submit" name="action"
+						value="register">Guardar</button>
+
+					<button class="uk-button" name="action" value="cancel">Cancelar</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/uikit.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/datepicker.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/form-select.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/accordion.min.js"></script>
+</body>
+</html>
